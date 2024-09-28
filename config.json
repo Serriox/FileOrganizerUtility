@@ -1,0 +1,28 @@
+{
+    "Text": [
+        ".txt",
+        ".docx"
+    ],
+    "Images": [
+        ".png",
+        ".jpg",
+        ".svg"
+    ],
+    "Audios": [
+        ".mp3",
+        ".ogg",
+        ".wav"
+    ],
+    "Videos": [
+        ".mp4",
+        ".avi"
+    ],
+    "Archives": [
+        ".zip",
+        ".rar",
+        ".7z"
+    ],
+    "Executables": [
+        ".exe"
+    ]
+}
