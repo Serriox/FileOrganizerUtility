@@ -10,8 +10,6 @@ customtkinter.set_appearance_mode("system")
 customtkinter.set_default_color_theme("blue")
 
 
-MAIN_PATH = os.path.dirname(os.path.abspath(__file__))
-
 class App(customtkinter.CTk):
     def __init__(self):
         super().__init__()
@@ -73,7 +71,7 @@ class App(customtkinter.CTk):
         
         self.config_label = customtkinter.CTkLabel(
             master = self.frame,
-            text = "Configuration\n(only change this if you know what you are doing!)",
+            text = "Configuration\n(only edit this if you know what you are doing!)",
             font = customtkinter.CTkFont(size=20)
         )
         self.config_label.grid(row=2, column=0, padx=8, pady=(32, 8))
